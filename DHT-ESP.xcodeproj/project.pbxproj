@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD1DBD07261475E100EC91AE /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1DBD06261475E100EC91AE /* APIService.swift */; };
+		CD1DBD0B2614836100EC91AE /* CocoaMQTTWebSocket in Frameworks */ = {isa = PBXBuildFile; productRef = CD1DBD0A2614836100EC91AE /* CocoaMQTTWebSocket */; };
+		CD1DBD0D2614836100EC91AE /* CocoaMQTT in Frameworks */ = {isa = PBXBuildFile; productRef = CD1DBD0C2614836100EC91AE /* CocoaMQTT */; };
+		CD1DBD112614846100EC91AE /* MQTTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1DBD102614846100EC91AE /* MQTTService.swift */; };
+		CD1DBD172614877500EC91AE /* DHTModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1DBD162614877500EC91AE /* DHTModal.swift */; };
+		CD1DBD1B2614918300EC91AE /* MessageModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1DBD1A2614918300EC91AE /* MessageModal.swift */; };
+		CD1DBD1F2614BA0E00EC91AE /* TopicsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1DBD1E2614BA0E00EC91AE /* TopicsData.swift */; };
+		CDADF3FF261461A3000361B6 /* DHT_ESPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDADF3FE261461A3000361B6 /* DHT_ESPApp.swift */; };
+		CDADF401261461A3000361B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDADF400261461A3000361B6 /* ContentView.swift */; };
+		CDADF403261461A6000361B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDADF402261461A6000361B6 /* Assets.xcassets */; };
+		CDADF406261461A6000361B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDADF405261461A6000361B6 /* Preview Assets.xcassets */; };
+		CDADF415261463F9000361B6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDADF414261463F9000361B6 /* HomeView.swift */; };
+		CDADF419261464B2000361B6 /* PagesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDADF418261464B2000361B6 /* PagesModel.swift */; };
+		CDADF41E261465E1000361B6 /* PagesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDADF41D261465E1000361B6 /* PagesData.swift */; };
+		CDADF42126146882000361B6 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDADF42026146882000361B6 /* WeatherModel.swift */; };
+		CDADF4282614693F000361B6 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDADF4272614693F000361B6 /* WeatherViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD1DBD06261475E100EC91AE /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		CD1DBD102614846100EC91AE /* MQTTService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQTTService.swift; sourceTree = "<group>"; };
+		CD1DBD162614877500EC91AE /* DHTModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHTModal.swift; sourceTree = "<group>"; };
+		CD1DBD1A2614918300EC91AE /* MessageModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModal.swift; sourceTree = "<group>"; };
+		CD1DBD1E2614BA0E00EC91AE /* TopicsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsData.swift; sourceTree = "<group>"; };
+		CDADF3FB261461A3000361B6 /* DHT-ESP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DHT-ESP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDADF3FE261461A3000361B6 /* DHT_ESPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHT_ESPApp.swift; sourceTree = "<group>"; };
+		CDADF400261461A3000361B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDADF402261461A6000361B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDADF405261461A6000361B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDADF407261461A6000361B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDADF414261463F9000361B6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CDADF418261464B2000361B6 /* PagesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagesModel.swift; sourceTree = "<group>"; };
+		CDADF41D261465E1000361B6 /* PagesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagesData.swift; sourceTree = "<group>"; };
+		CDADF42026146882000361B6 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		CDADF4272614693F000361B6 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDADF3F8261461A3000361B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1DBD0D2614836100EC91AE /* CocoaMQTT in Frameworks */,
+				CD1DBD0B2614836100EC91AE /* CocoaMQTTWebSocket in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDADF3F2261461A3000361B6 = {
+			isa = PBXGroup;
+			children = (
+				CDADF3FD261461A3000361B6 /* DHT-ESP */,
+				CDADF3FC261461A3000361B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDADF3FC261461A3000361B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDADF3FB261461A3000361B6 /* DHT-ESP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDADF3FD261461A3000361B6 /* DHT-ESP */ = {
+			isa = PBXGroup;
+			children = (
+				CDADF3FE261461A3000361B6 /* DHT_ESPApp.swift */,
+				CDADF40E26146362000361B6 /* Views */,
+				CDADF40F2614636F000361B6 /* ViewModels */,
+				CDADF4112614638B000361B6 /* Services */,
+				CDADF41026146379000361B6 /* Models */,
+				CDADF41B261465BC000361B6 /* Data */,
+				CDADF402261461A6000361B6 /* Assets.xcassets */,
+				CDADF407261461A6000361B6 /* Info.plist */,
+				CDADF404261461A6000361B6 /* Preview Content */,
+			);
+			path = "DHT-ESP";
+			sourceTree = "<group>";
+		};
+		CDADF404261461A6000361B6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CDADF405261461A6000361B6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CDADF40E26146362000361B6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CDADF400261461A3000361B6 /* ContentView.swift */,
+				CDADF414261463F9000361B6 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CDADF40F2614636F000361B6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CDADF4272614693F000361B6 /* WeatherViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CDADF41026146379000361B6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CDADF418261464B2000361B6 /* PagesModel.swift */,
+				CDADF42026146882000361B6 /* WeatherModel.swift */,
+				CD1DBD162614877500EC91AE /* DHTModal.swift */,
+				CD1DBD1A2614918300EC91AE /* MessageModal.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CDADF4112614638B000361B6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CD1DBD06261475E100EC91AE /* APIService.swift */,
+				CD1DBD102614846100EC91AE /* MQTTService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CDADF41B261465BC000361B6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CDADF41D261465E1000361B6 /* PagesData.swift */,
+				CD1DBD1E2614BA0E00EC91AE /* TopicsData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDADF3FA261461A3000361B6 /* DHT-ESP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDADF40A261461A6000361B6 /* Build configuration list for PBXNativeTarget "DHT-ESP" */;
+			buildPhases = (
+				CDADF3F7261461A3000361B6 /* Sources */,
+				CDADF3F8261461A3000361B6 /* Frameworks */,
+				CDADF3F9261461A3000361B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DHT-ESP";
+			packageProductDependencies = (
+				CD1DBD0A2614836100EC91AE /* CocoaMQTTWebSocket */,
+				CD1DBD0C2614836100EC91AE /* CocoaMQTT */,
+			);
+			productName = "DHT-ESP";
+			productReference = CDADF3FB261461A3000361B6 /* DHT-ESP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDADF3F3261461A3000361B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CDADF3FA261461A3000361B6 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = CDADF3F6261461A3000361B6 /* Build configuration list for PBXProject "DHT-ESP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDADF3F2261461A3000361B6;
+			packageReferences = (
+				CD1DBD092614836100EC91AE /* XCRemoteSwiftPackageReference "CocoaMQTT" */,
+			);
+			productRefGroup = CDADF3FC261461A3000361B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDADF3FA261461A3000361B6 /* DHT-ESP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDADF3F9261461A3000361B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDADF406261461A6000361B6 /* Preview Assets.xcassets in Resources */,
+				CDADF403261461A6000361B6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDADF3F7261461A3000361B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDADF401261461A3000361B6 /* ContentView.swift in Sources */,
+				CDADF41E261465E1000361B6 /* PagesData.swift in Sources */,
+				CDADF415261463F9000361B6 /* HomeView.swift in Sources */,
+				CD1DBD1F2614BA0E00EC91AE /* TopicsData.swift in Sources */,
+				CDADF4282614693F000361B6 /* WeatherViewModel.swift in Sources */,
+				CD1DBD172614877500EC91AE /* DHTModal.swift in Sources */,
+				CDADF419261464B2000361B6 /* PagesModel.swift in Sources */,
+				CD1DBD112614846100EC91AE /* MQTTService.swift in Sources */,
+				CDADF42126146882000361B6 /* WeatherModel.swift in Sources */,
+				CD1DBD1B2614918300EC91AE /* MessageModal.swift in Sources */,
+				CD1DBD07261475E100EC91AE /* APIService.swift in Sources */,
+				CDADF3FF261461A3000361B6 /* DHT_ESPApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CDADF408261461A6000361B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDADF409261461A6000361B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDADF40B261461A6000361B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_ASSET_PATHS = "\"DHT-ESP/Preview Content\"";
+				DEVELOPMENT_TEAM = 693P93E2N6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "DHT-ESP/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trueddns.homenano.DHT-ESP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDADF40C261461A6000361B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 8;
+				DEVELOPMENT_ASSET_PATHS = "\"DHT-ESP/Preview Content\"";
+				DEVELOPMENT_TEAM = 693P93E2N6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "DHT-ESP/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trueddns.homenano.DHT-ESP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDADF3F6261461A3000361B6 /* Build configuration list for PBXProject "DHT-ESP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDADF408261461A6000361B6 /* Debug */,
+				CDADF409261461A6000361B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDADF40A261461A6000361B6 /* Build configuration list for PBXNativeTarget "DHT-ESP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDADF40B261461A6000361B6 /* Debug */,
+				CDADF40C261461A6000361B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CD1DBD092614836100EC91AE /* XCRemoteSwiftPackageReference "CocoaMQTT" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/emqx/CocoaMQTT.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CD1DBD0A2614836100EC91AE /* CocoaMQTTWebSocket */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CD1DBD092614836100EC91AE /* XCRemoteSwiftPackageReference "CocoaMQTT" */;
+			productName = CocoaMQTTWebSocket;
+		};
+		CD1DBD0C2614836100EC91AE /* CocoaMQTT */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CD1DBD092614836100EC91AE /* XCRemoteSwiftPackageReference "CocoaMQTT" */;
+			productName = CocoaMQTT;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CDADF3F3261461A3000361B6 /* Project object */;
+}
