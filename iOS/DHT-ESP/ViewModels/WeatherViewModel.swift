@@ -57,6 +57,10 @@ class WeatherViewModel: ObservableObject {
     
     
     func getWeather() {
+        // Clear property
+        self.temp = "-"
+        self.humi = "-"
+        
         getMqtt()
         APIService.getWeather { (weatherModels) in
             self.weatherModes = weatherModels

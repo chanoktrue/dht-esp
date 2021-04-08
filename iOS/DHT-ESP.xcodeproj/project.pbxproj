@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		CD1DBD07261475E100EC91AE /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1DBD06261475E100EC91AE /* APIService.swift */; };
-		CD1DBD0B2614836100EC91AE /* CocoaMQTTWebSocket in Frameworks */ = {isa = PBXBuildFile; productRef = CD1DBD0A2614836100EC91AE /* CocoaMQTTWebSocket */; };
-		CD1DBD0D2614836100EC91AE /* CocoaMQTT in Frameworks */ = {isa = PBXBuildFile; productRef = CD1DBD0C2614836100EC91AE /* CocoaMQTT */; };
 		CD1DBD112614846100EC91AE /* MQTTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1DBD102614846100EC91AE /* MQTTService.swift */; };
 		CD1DBD172614877500EC91AE /* DHTModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1DBD162614877500EC91AE /* DHTModal.swift */; };
 		CD1DBD1B2614918300EC91AE /* MessageModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1DBD1A2614918300EC91AE /* MessageModal.swift */; };
 		CD1DBD1F2614BA0E00EC91AE /* TopicsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1DBD1E2614BA0E00EC91AE /* TopicsData.swift */; };
+		CD72BFFB2615E03F00D7A974 /* CocoaMQTTWebSocket in Frameworks */ = {isa = PBXBuildFile; productRef = CD72BFFA2615E03F00D7A974 /* CocoaMQTTWebSocket */; };
+		CD72BFFD2615E03F00D7A974 /* CocoaMQTT in Frameworks */ = {isa = PBXBuildFile; productRef = CD72BFFC2615E03F00D7A974 /* CocoaMQTT */; };
+		CD903CA226168B0A0013EC9E /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD903CA126168B0A0013EC9E /* ChartView.swift */; };
+		CD903CA526168ECA0013EC9E /* Charts in Frameworks */ = {isa = PBXBuildFile; productRef = CD903CA426168ECA0013EC9E /* Charts */; };
+		CD903CA72616A8440013EC9E /* HomeChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD903CA62616A8440013EC9E /* HomeChartView.swift */; };
 		CDADF3FF261461A3000361B6 /* DHT_ESPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDADF3FE261461A3000361B6 /* DHT_ESPApp.swift */; };
 		CDADF401261461A3000361B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDADF400261461A3000361B6 /* ContentView.swift */; };
 		CDADF403261461A6000361B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDADF402261461A6000361B6 /* Assets.xcassets */; };
@@ -25,12 +28,27 @@
 		CDADF4282614693F000361B6 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDADF4272614693F000361B6 /* WeatherViewModel.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		CD903C9F26168AB10013EC9E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		CD1DBD06261475E100EC91AE /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		CD1DBD102614846100EC91AE /* MQTTService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQTTService.swift; sourceTree = "<group>"; };
 		CD1DBD162614877500EC91AE /* DHTModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHTModal.swift; sourceTree = "<group>"; };
 		CD1DBD1A2614918300EC91AE /* MessageModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModal.swift; sourceTree = "<group>"; };
 		CD1DBD1E2614BA0E00EC91AE /* TopicsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsData.swift; sourceTree = "<group>"; };
+		CD903CA126168B0A0013EC9E /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		CD903CA62616A8440013EC9E /* HomeChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeChartView.swift; sourceTree = "<group>"; };
 		CDADF3FB261461A3000361B6 /* DHT-ESP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DHT-ESP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDADF3FE261461A3000361B6 /* DHT_ESPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHT_ESPApp.swift; sourceTree = "<group>"; };
 		CDADF400261461A3000361B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,14 +67,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD1DBD0D2614836100EC91AE /* CocoaMQTT in Frameworks */,
-				CD1DBD0B2614836100EC91AE /* CocoaMQTTWebSocket in Frameworks */,
+				CD72BFFD2615E03F00D7A974 /* CocoaMQTT in Frameworks */,
+				CD903CA526168ECA0013EC9E /* Charts in Frameworks */,
+				CD72BFFB2615E03F00D7A974 /* CocoaMQTTWebSocket in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD903CA026168AF20013EC9E /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				CD903CA62616A8440013EC9E /* HomeChartView.swift */,
+				CD903CA126168B0A0013EC9E /* ChartView.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
 		CDADF3F2261461A3000361B6 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +110,7 @@
 				CDADF4112614638B000361B6 /* Services */,
 				CDADF41026146379000361B6 /* Models */,
 				CDADF41B261465BC000361B6 /* Data */,
+				CD903CA026168AF20013EC9E /* Chart */,
 				CDADF402261461A6000361B6 /* Assets.xcassets */,
 				CDADF407261461A6000361B6 /* Info.plist */,
 				CDADF404261461A6000361B6 /* Preview Content */,
@@ -153,6 +182,7 @@
 				CDADF3F7261461A3000361B6 /* Sources */,
 				CDADF3F8261461A3000361B6 /* Frameworks */,
 				CDADF3F9261461A3000361B6 /* Resources */,
+				CD903C9F26168AB10013EC9E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,8 +190,9 @@
 			);
 			name = "DHT-ESP";
 			packageProductDependencies = (
-				CD1DBD0A2614836100EC91AE /* CocoaMQTTWebSocket */,
-				CD1DBD0C2614836100EC91AE /* CocoaMQTT */,
+				CD72BFFA2615E03F00D7A974 /* CocoaMQTTWebSocket */,
+				CD72BFFC2615E03F00D7A974 /* CocoaMQTT */,
+				CD903CA426168ECA0013EC9E /* Charts */,
 			);
 			productName = "DHT-ESP";
 			productReference = CDADF3FB261461A3000361B6 /* DHT-ESP.app */;
@@ -191,7 +222,8 @@
 			);
 			mainGroup = CDADF3F2261461A3000361B6;
 			packageReferences = (
-				CD1DBD092614836100EC91AE /* XCRemoteSwiftPackageReference "CocoaMQTT" */,
+				CD72BFF92615E03F00D7A974 /* XCRemoteSwiftPackageReference "CocoaMQTT" */,
+				CD903CA326168ECA0013EC9E /* XCRemoteSwiftPackageReference "Charts" */,
 			);
 			productRefGroup = CDADF3FC261461A3000361B6 /* Products */;
 			projectDirPath = "";
@@ -220,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDADF401261461A3000361B6 /* ContentView.swift in Sources */,
+				CD903CA226168B0A0013EC9E /* ChartView.swift in Sources */,
 				CDADF41E261465E1000361B6 /* PagesData.swift in Sources */,
 				CDADF415261463F9000361B6 /* HomeView.swift in Sources */,
 				CD1DBD1F2614BA0E00EC91AE /* TopicsData.swift in Sources */,
@@ -230,6 +263,7 @@
 				CDADF42126146882000361B6 /* WeatherModel.swift in Sources */,
 				CD1DBD1B2614918300EC91AE /* MessageModal.swift in Sources */,
 				CD1DBD07261475E100EC91AE /* APIService.swift in Sources */,
+				CD903CA72616A8440013EC9E /* HomeChartView.swift in Sources */,
 				CDADF3FF261461A3000361B6 /* DHT_ESPApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,7 +393,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 8;
+				CURRENT_PROJECT_VERSION = 9;
 				DEVELOPMENT_ASSET_PATHS = "\"DHT-ESP/Preview Content\"";
 				DEVELOPMENT_TEAM = 693P93E2N6;
 				ENABLE_PREVIEWS = YES;
@@ -382,7 +416,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 8;
+				CURRENT_PROJECT_VERSION = 9;
 				DEVELOPMENT_ASSET_PATHS = "\"DHT-ESP/Preview Content\"";
 				DEVELOPMENT_TEAM = 693P93E2N6;
 				ENABLE_PREVIEWS = YES;
@@ -423,9 +457,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		CD1DBD092614836100EC91AE /* XCRemoteSwiftPackageReference "CocoaMQTT" */ = {
+		CD72BFF92615E03F00D7A974 /* XCRemoteSwiftPackageReference "CocoaMQTT" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/emqx/CocoaMQTT.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		CD903CA326168ECA0013EC9E /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts.git";
 			requirement = {
 				branch = master;
 				kind = branch;
@@ -434,15 +476,20 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		CD1DBD0A2614836100EC91AE /* CocoaMQTTWebSocket */ = {
+		CD72BFFA2615E03F00D7A974 /* CocoaMQTTWebSocket */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CD1DBD092614836100EC91AE /* XCRemoteSwiftPackageReference "CocoaMQTT" */;
+			package = CD72BFF92615E03F00D7A974 /* XCRemoteSwiftPackageReference "CocoaMQTT" */;
 			productName = CocoaMQTTWebSocket;
 		};
-		CD1DBD0C2614836100EC91AE /* CocoaMQTT */ = {
+		CD72BFFC2615E03F00D7A974 /* CocoaMQTT */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = CD1DBD092614836100EC91AE /* XCRemoteSwiftPackageReference "CocoaMQTT" */;
+			package = CD72BFF92615E03F00D7A974 /* XCRemoteSwiftPackageReference "CocoaMQTT" */;
 			productName = CocoaMQTT;
+		};
+		CD903CA426168ECA0013EC9E /* Charts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CD903CA326168ECA0013EC9E /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = Charts;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

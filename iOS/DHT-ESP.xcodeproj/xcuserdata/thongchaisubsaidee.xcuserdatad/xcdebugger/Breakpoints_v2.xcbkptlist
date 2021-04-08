@@ -14,8 +14,8 @@
             filePath = "DHT-ESP/ViewModels/WeatherViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "74"
-            endingLineNumber = "74"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
             landmarkName = "getMqtt()"
             landmarkType = "7">
             <Locations>
@@ -110,8 +110,8 @@
             filePath = "DHT-ESP/Services/MQTTService.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "setupMQTT()"
             landmarkType = "7">
          </BreakpointContent>

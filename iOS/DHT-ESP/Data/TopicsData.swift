@@ -7,5 +7,5 @@
 
 import Foundation
 
-//let topicsData = ["dht/temperature", "dht/humidity"]
-let topicsData = ["dht-ESP001/temperature", "dht-ESP001/humidity"]
+let topicsData = ["dht/temperature", "dht/humidity"]
+//let topicsData = ["dht-ESP001/temperature", "dht-ESP001/humidity"]

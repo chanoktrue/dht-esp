@@ -12,6 +12,7 @@ struct DHT_ESPApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+//            HomeChartView()
         }
     }
 }
