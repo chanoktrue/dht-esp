@@ -26,14 +26,6 @@ String  company = "NP";
 String  location_id = "BANMOH";
 String  thCode = "ESP01";
 
-
-/*
-#define mqttServer "110.170.42.146"
-#define mqttPort 1883
-#define mqttUser "admin"
-#define mqttPassword "computer"
-*/
-
 WiFiClient wifiClient;
 PubSubClient client(wifiClient);
 
